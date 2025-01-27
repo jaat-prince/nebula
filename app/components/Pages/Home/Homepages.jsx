@@ -4,6 +4,7 @@ import Apporch from "../../Home/Apporch";
 import Why from "../../Home/why";
 import Services from "../../Home/Services";
 import About from "../../Home/About";
+import Last from "../../Home/Last";
 
 function Homepages() {
   return (
@@ -13,6 +14,7 @@ function Homepages() {
       <Why />
       <Services />
       <About />
+      <Last />
     </>
   );
 }

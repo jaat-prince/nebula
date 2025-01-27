@@ -17,7 +17,7 @@ function Hero() {
             className="w-full"
           />
         </div>
-        <h1 className="text-[32px] sm:text-[42px] md:text-[52px] lg:text-[70px] text-[var(--Brown,#494336)] md:text-[var(--Grey,#D7D9DD)] w-full max-w-[230px] sm:max-w-[511px]">
+        <h1 className="text-[32px] sm:text-[42px] md:text-[52px] lg:text-[70px] text-[var(--Brown,#494336)] md:text-[var(--Grey,#D7D9DD)] w-full max-w-[230px] sm:max-w-[511px] ff-av">
           Welcome to Nebula Vets
         </h1>
         <p className="text-base sm:text-xl md:text-[28px] font-normal text-[var(--Brown,#494336)] md:text-[var(--Grey,#D7D9DD)] sm:mt-7">
