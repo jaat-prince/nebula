@@ -6,9 +6,8 @@ import Image from 'next/image';
 function Matterch() {
     const [openAccordion, setOpenAccordion] = useState(null);
 
-    // Toggle function for accordion
     const toggleAccordion = (index) => {
-      setOpenAccordion((prevState) => (prevState === index ? null : index)); // Close if same, open if different
+      setOpenAccordion((prevState) => (prevState === index ? null : index)); 
     };
   
   return (
