@@ -5,6 +5,7 @@ import Heroch from '../components/Folder/Animal check/Heroch'
 import Examch from '../components/Folder/Animal check/Examch'
 import Vetsch from '../components/Folder/Animal check/Vetsch'
 import Soonch from '../components/Folder/Animal check/Soonch'
+import Matterch from '../components/Folder/Animal check/Matterch'
 
 function page() {
   return (
@@ -12,6 +13,7 @@ function page() {
         <Navbar/>
         <Heroch/>
         <Examch/>
+        <Matterch/>
         <Vetsch/>
         <Soonch/>
         <Footer/>

@@ -441,3 +441,21 @@ export const DcIcon = () => {
     </svg>
   );
 };
+export const CrossIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+    <line x1="11.3468" y1="11.5626" x2="32.56" y2="32.7758" stroke="url(#paint0_linear_1203_3617)" stroke-width="2.5"/>
+    <line x1="11.5072" y1="32.7757" x2="32.7204" y2="11.5625" stroke="url(#paint1_linear_1203_3617)" stroke-width="2.5"/>
+    <defs>
+      <linearGradient id="paint0_linear_1203_3617" x1="10.4629" y1="12.4465" x2="31.6761" y2="33.6597" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FFA280"/>
+        <stop offset="1" stop-color="#8FD9D9"/>
+      </linearGradient>
+      <linearGradient id="paint1_linear_1203_3617" x1="12.3911" y1="33.6595" x2="33.6043" y2="12.4463" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FFA280"/>
+        <stop offset="1" stop-color="#8FD9D9"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  );
+};
