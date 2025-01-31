@@ -6,7 +6,6 @@ import Travel from "../../Common/Travel";
 function Addition() {
   return (
     <>
-      {" "}
       <div className="flex flex-wrap lg:flex-nowrap w-full ">
         <div className="w-full bg-[#fff] px-4 sm:px-8 md:px-10 lg:pl-[68px] lg:pr-[23px] pt-[120px] lg:pt-[80px] pb-[60px] lg:pb-0">
           <Carecard
