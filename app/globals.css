@@ -35,3 +35,9 @@ body {
 .swiper-pagination-bullet-active {
   background: #24211b !important;
 }
+.cl-lg{
+  background: linear-gradient(180deg, #FFA280 0%, #8FD9CB 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

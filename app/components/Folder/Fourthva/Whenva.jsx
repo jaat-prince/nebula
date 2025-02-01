@@ -2,6 +2,8 @@
 import Image from 'next/image';
  import React, {useState} from 'react'
 import { AddIcon, CrossIcon } from '../../Helper/Icon';
+import Slideva from './Slideva';
+import Secondva from './Secondva';
 
 function Whenva() {
       const [openAccordion, setOpenAccordion] = useState(null);
@@ -63,6 +65,13 @@ function Whenva() {
                                       className="w-full mt-[32px]"
                                     />
             </div>
+</div>
+<h1 className='text-2xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-normal ff-av text-[var(--Brown,#494336)] mt-[74px] md:mt-[80px]'>When to vaccinate?</h1>
+<div className='mt-6 lg:mt-10'>
+<Slideva/>
+</div>
+<div className='mt-[21px]'>
+  <Secondva/>
 </div>
 
     </div>
