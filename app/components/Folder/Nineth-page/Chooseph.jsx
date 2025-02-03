@@ -12,7 +12,7 @@ function Chooseph() {
   return (
     <div>  <div className='max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 md:ml-[65px] py-[60px] md:py-[80px]'>
                    <h1 className='text-[var(--Brown,#494336)] ff-av text-2xl md:text-[32px] lg:text-[36px] font-normal w-full max-sm:max-w-[274px]'>Why Choose our Pharmacy:</h1>
-                   <div className='mt-[40px] w-full max-w-[980px]'>
+                   <div className='mt-[40px] w-full max-w-[1080px]'>
            <div className='accordion-title cursor-pointer' onClick={() => toggleAccordion(1)}>
                <h1 className='text-base md:text-xl lg:text-2xl font-normal text-[var(--Brown,#494336)] flex justify-between items-center'><span className='w-full max-[430px]:max-w-[234px]'>Convenience</span> <span className="ml-2"> {openAccordion === 1 ? <CrossIcon /> : <AddIcon />}</span></h1>
                {openAccordion === 1 && (
