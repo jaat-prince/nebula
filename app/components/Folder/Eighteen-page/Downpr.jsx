@@ -15,17 +15,18 @@ function Downpr() {
                                                                                  />
                                                          </div>
                                <div className='w-full max-w-[1440px] flex flex-wrap-reverse lg:flex-nowrap'>
-                               <div className='w-full max-lg:mt-[60px] lg:max-w-[547px]'>
+                               <div className='w-full max-lg:mt-[60px] max-sm:max-w-[250px] lg:max-w-[423px]'>
                 <h1 className='text-2xl font-normal text-[var(--Brown,#494336)] max-md:ff-av'>Downtown</h1>
-                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] ff-av mt-5'>2468 18th Street, SW Washington DC, 20003</p>
+                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] mt-5'>2468 18th Street, SW </p>
+                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)]'>Washington DC, 20003</p>
                 <h1 className='text-2xl font-normal text-[var(--Brown,#494336)] max-md:ff-av mt-6'>Opening Hours</h1>
-                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] ff-av mt-5'>Monday - Friday: 8AM - 6PM</p>
-                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] ff-av'>Saturday: 9AM - 5PM</p>
-                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] ff-av'>Sunday: Closed</p>
+                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] mt-5'>Monday - Friday: 8AM - 6PM</p>
+                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)]'>Saturday: 9AM - 5PM</p>
+                <p className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] '>Sunday: Closed</p>
                 <h1 className='text-2xl font-normal text-[var(--Brown,#494336)] max-md:ff-av mt-6'>Opening Hours</h1>
-                <a href='#' className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] ff-av mt-5'>Phone: (212) 123-4567</a>
+                <a href='#' className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] mt-5'>Phone: (212) 123-4567</a>
                 <p></p>
-                <a href='#' className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] ff-av'>hello@nebulavets.com</a>
+                <a href='#' className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)]'>hello@nebulavets.com</a>
        </div>
                                 
                                 <div className='w-full max-w-[600px]'> 
