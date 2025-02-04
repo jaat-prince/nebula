@@ -5,7 +5,7 @@ import Image from "next/image";
 function Hero() {
   return (
     <div className="bg-[#494336] pt-[33px] sm:pt-[60px] md:pt-[110px] lg:pt-[140px] pb-0 lg:pb-[85px]">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 relative md:ml-[65px] flex flex-wrap lg:flex-nowrap">
+      <div className="max-w-[1180px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 relative flex flex-wrap lg:flex-nowrap">
         <div className="w-full">
           <h1 className="text-[32px] sm:text-[42px] md:text-[52px] lg:text-[70px] font-normal text-[var(--Grey,#D7D9DD)] w-full max-w-[230px] sm:max-w-[578px] ff-av">
             Veterinary Services
@@ -27,7 +27,7 @@ function Hero() {
           width={584}
           height={372}
           alt="logo"
-          className="w-full lg:max-w-[584px] mt-6 lg:mt-0"
+          className="w-full lg:max-w-[584px] mt-6 lg:mt-0 lg:-mr-12 xl:-mr-[60px]"
         />
       </div>
     </div>
