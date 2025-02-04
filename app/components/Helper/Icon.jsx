@@ -12,7 +12,7 @@ export const AddIcon = () => {
         x2="30"
         y2="15.1136"
         stroke="url(#paint0_linear_1204_1399)"
-        stroke-width="2.5"
+        strokeWidth="2.5"
       />
       <line
         x1="15.1134"
@@ -20,7 +20,7 @@ export const AddIcon = () => {
         x2="15.1134"
         y2="7.28523e-08"
         stroke="url(#paint1_linear_1204_1399)"
-        stroke-width="2.5"
+        strokeWidth="2.5"
       />
       <defs>
         <linearGradient
@@ -31,8 +31,8 @@ export const AddIcon = () => {
           y2="16.3636"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFA280" />
-          <stop offset="1" stop-color="#8FD9D9" />
+          <stop stopColor="#FFA280" />
+          <stop offset="1" stopColor="#8FD9D9" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1204_1399"
@@ -42,8 +42,8 @@ export const AddIcon = () => {
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFA280" />
-          <stop offset="1" stop-color="#8FD9D9" />
+          <stop stopColor="#FFA280" />
+          <stop offset="1" stopColor="#8FD9D9" />
         </linearGradient>
       </defs>
     </svg>
@@ -72,8 +72,8 @@ export const FaceIcon = () => {
             y2="0.622558"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFA280" />
-            <stop offset="1" stop-color="#8FD9D9" />
+            <stop stopColor="#FFA280" />
+            <stop offset="1" stopColor="#8FD9D9" />
           </linearGradient>
         </defs>
       </svg>
@@ -103,8 +103,8 @@ export const InIcon = () => {
             y2="0.622558"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFA280" />
-            <stop offset="1" stop-color="#8FD9D9" />
+            <stop stopColor="#FFA280" />
+            <stop offset="1" stopColor="#8FD9D9" />
           </linearGradient>
         </defs>
       </svg>
@@ -134,8 +134,8 @@ export const InstIcon = () => {
             y2="0.698242"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFA280" />
-            <stop offset="1" stop-color="#8FD9D9" />
+            <stop stopColor="#FFA280" />
+            <stop offset="1" stopColor="#8FD9D9" />
           </linearGradient>
         </defs>
       </svg>
@@ -151,7 +151,7 @@ export const IjectIcon = () => {
       viewBox="0 0 93 74"
       fill="none"
     >
-      <g clip-path="url(#clip0_1204_1460)">
+      <g clipPath="url(#clip0_1204_1460)">
         <path
           d="M35.5269 74C35.3151 74 35.1004 73.9391 34.9081 73.8147L19.6297 63.7032C19.1168 63.363 18.9802 62.6771 19.3203 62.1682C19.6632 61.6593 20.3545 61.5238 20.8674 61.8612L27.5797 66.3029L31.2258 60.8793L26.2055 57.5577C25.5058 57.0958 25.0291 56.3878 24.8647 55.5719C24.7002 54.7532 24.8647 53.9208 25.333 53.2266L50.7691 15.3996C51.7336 13.9669 53.6904 13.5797 55.1343 14.5339L60.1547 17.8556L71.8288 0.49228C72.1689 -0.0166153 72.863 -0.152136 73.3759 0.185283C73.8888 0.525469 74.0254 1.21137 73.6853 1.72027L62.0084 19.0863L67.0287 22.408C68.4726 23.3649 68.8629 25.3065 67.9012 26.7391L42.4678 64.5661C42.0023 65.2603 41.2887 65.7332 40.4664 65.8964C39.6413 66.0596 38.8023 65.8964 38.1026 65.4317L33.0823 62.1101L29.4362 67.5337L36.1485 71.9755C36.6614 72.3157 36.798 73.0016 36.458 73.5105C36.2433 73.8313 35.8893 74.0028 35.5297 74.0028L35.5269 74ZM33.4028 59.6597L39.3403 63.5898C39.5437 63.7253 39.789 63.7723 40.0288 63.7253C40.2685 63.6783 40.4776 63.54 40.6141 63.3381L44.5947 57.4166L38.7493 53.5474C38.2364 53.2072 38.0998 52.5213 38.4399 52.0124C38.7827 51.5035 39.4741 51.368 39.987 51.7054L45.8324 55.5747L66.0475 25.5111C66.329 25.0935 66.2147 24.5265 65.7938 24.2472L59.8564 20.3171C59.8564 20.3171 59.8508 20.3115 59.8452 20.3115L59.8341 20.306L53.8967 16.3759C53.4758 16.0966 52.9043 16.21 52.6228 16.6276L27.1895 54.4545C27.0529 54.6564 27.0055 54.8998 27.0529 55.1377C27.1003 55.3755 27.2396 55.583 27.4431 55.7185L33.3805 59.6486C33.3805 59.6486 33.3861 59.6541 33.3889 59.6541C33.3917 59.6541 33.3945 59.6597 33.3973 59.6597H33.4028Z"
           fill="url(#paint0_linear_1204_1460)"
@@ -170,8 +170,8 @@ export const IjectIcon = () => {
           y2="37"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1204_1460"
@@ -181,8 +181,8 @@ export const IjectIcon = () => {
           y2="36.6543"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <clipPath id="clip0_1204_1460">
           <rect width="93" height="74" fill="white" />
@@ -200,7 +200,7 @@ export const HeartIcon = () => {
       viewBox="0 0 74 74"
       fill="none"
     >
-      <g clip-path="url(#clip0_1204_1470)">
+      <g clipPath="url(#clip0_1204_1470)">
         <path
           d="M34.508 53.7465C33.6807 53.7465 32.9346 53.2618 32.5793 52.4852L24.7961 35.4114C24.7682 35.348 24.7352 35.3404 24.7123 35.3378C24.6946 35.3378 24.6641 35.3429 24.6337 35.3962L20.6774 42.215C20.2942 42.8749 19.5912 43.2834 18.8451 43.2834H7.8644C7.30356 43.2834 6.84931 42.8292 6.84931 42.2683C6.84931 41.7075 7.30356 41.2532 7.8644 41.2532H18.8477C18.873 41.2532 18.9035 41.2304 18.9238 41.1949L22.8801 34.376C23.2836 33.6781 24.0246 33.2721 24.8139 33.3102C25.6056 33.3482 26.3086 33.8304 26.6436 34.5689L34.4267 51.6427C34.4597 51.7137 34.4877 51.7163 34.5156 51.7163C34.546 51.7163 34.5815 51.701 34.6069 51.6198L44.6715 19.2309C44.9558 18.3173 45.7704 17.7083 46.7042 17.7083C46.7093 17.7083 46.7144 17.7083 46.7195 17.7083C47.6584 17.7159 48.473 18.3401 48.7471 19.2639L55.2056 41.1543C55.2234 41.2177 55.2691 41.2532 55.2995 41.2532H65.963C66.5239 41.2532 66.9781 41.7075 66.9781 42.2683C66.9781 42.8292 66.5239 43.2834 65.963 43.2834H55.2995C54.3529 43.2834 53.5333 42.6591 53.2592 41.7278L46.8007 19.8374C46.7728 19.746 46.7398 19.7359 46.7042 19.7384C46.6713 19.7384 46.6383 19.746 46.6104 19.8349L36.5457 52.2238C36.2767 53.0917 35.5307 53.6881 34.645 53.7439C34.5993 53.7465 34.5562 53.749 34.5105 53.749L34.508 53.7465Z"
           fill="url(#paint0_linear_1204_1470)"
@@ -227,8 +227,8 @@ export const HeartIcon = () => {
           y2="35.7261"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1204_1470"
@@ -238,8 +238,8 @@ export const HeartIcon = () => {
           y2="19.0075"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_1204_1470"
@@ -249,8 +249,8 @@ export const HeartIcon = () => {
           y2="37"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_1204_1470"
@@ -260,8 +260,8 @@ export const HeartIcon = () => {
           y2="54.9925"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <clipPath id="clip0_1204_1470">
           <rect width="74" height="74" fill="white" />
@@ -282,44 +282,44 @@ export const SurIcon = () => {
       <path
         d="M18.0829 56.7887C18.0829 56.7887 39.9601 47.3252 63.4778 52.2455"
         stroke="url(#paint0_linear_1204_1446)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M37.96 31.5951C38.5357 36.1948 37.6168 40.8592 35.3386 44.9015C32.8198 49.3666 28.7984 52.8003 23.9851 54.5912L18.0854 56.7887L36.8439 23.5159"
         stroke="url(#paint1_linear_1204_1446)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M46.1812 2.39142L34.8845 22.4171L42.8354 26.8687L49.7459 14.6126"
         stroke="url(#paint2_linear_1204_1446)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M37.4709 17.8281L49.7459 14.6126"
         stroke="url(#paint3_linear_1204_1446)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M46.1814 2.39142C59.3402 7.02888 68.7667 19.5328 68.7667 34.2342"
         stroke="url(#paint4_linear_1204_1446)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M63.24 52.7249C57.1862 61.9244 46.7462 68 34.8847 68C16.1722 68 1 52.8838 1 34.2343C1 17.917 12.6156 4.30359 28.0553 1.1554"
         stroke="url(#paint5_linear_1204_1446)"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -330,8 +330,8 @@ export const SurIcon = () => {
           y2="53.8074"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1204_1446"
@@ -341,8 +341,8 @@ export const SurIcon = () => {
           y2="39.6001"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_1204_1446"
@@ -352,8 +352,8 @@ export const SurIcon = () => {
           y2="11.8523"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_1204_1446"
@@ -363,8 +363,8 @@ export const SurIcon = () => {
           y2="13.4442"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_1204_1446"
@@ -374,8 +374,8 @@ export const SurIcon = () => {
           y2="18.3128"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_1204_1446"
@@ -385,8 +385,8 @@ export const SurIcon = () => {
           y2="34.5763"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
       </defs>
     </svg>
@@ -401,7 +401,7 @@ export const DcIcon = () => {
       viewBox="0 0 75 74"
       fill="none"
     >
-      <g clip-path="url(#clip0_1204_1481)">
+      <g clipPath="url(#clip0_1204_1481)">
         <path
           d="M56.0977 60.8204C55.9256 60.8204 55.7535 60.7795 55.5896 60.6948C55.0542 60.4137 54.8494 59.753 55.1307 59.2207C57.8677 54.0204 57.0046 44.3432 54.4834 38.5642C53.9644 37.3767 53.8797 36.0664 54.2375 34.7779C54.7565 32.9134 56.3982 32.7742 57.7175 32.6623C59.2444 32.5313 60.9735 32.3838 62.8364 30.4621C64.1831 29.0726 64.6802 26.8751 64.8523 25.764C64.1312 25.3955 62.9757 24.8141 62.1289 24.41C60.449 23.6129 59.9382 22.2699 59.5258 21.1916C59.1434 20.1897 58.8128 19.3217 57.6164 18.6556C55.5678 17.5118 54.3222 17.2606 53.3197 17.0586C53.0629 17.0068 52.8198 16.9576 52.5849 16.8976C51.1481 16.5318 50.8941 13.9712 50.8832 11.1049C47.8402 13.2969 46.0702 17.6237 46.0511 17.6728C45.9801 17.8475 45.8681 18.0004 45.7206 18.1178C42.8197 20.4436 42.0111 24.7868 41.1534 29.3838L41.0578 29.8997C40.9458 30.4921 40.3777 30.8824 39.7822 30.7733C39.1894 30.6613 38.7988 30.0908 38.9081 29.4984L39.0037 28.9825C39.916 24.0797 40.7792 19.4445 44.1335 16.5946C44.6607 15.388 46.9907 10.5016 50.9241 8.52794C51.3912 8.29317 51.9348 8.32047 52.3773 8.59618C52.8226 8.87463 53.0821 9.35234 53.0766 9.87647C53.0384 12.6909 53.2487 14.2933 53.4344 14.8502C53.5382 14.872 53.6448 14.8939 53.7568 14.9157C54.7866 15.1232 56.3408 15.4371 58.6872 16.7474C60.5774 17.8011 61.1292 19.2507 61.5717 20.4136C61.9732 21.4673 62.2218 22.0351 63.0686 22.4391C64.4207 23.0806 66.4448 24.1234 66.5295 24.1698C66.9146 24.3691 67.1468 24.7758 67.1195 25.2071C67.1085 25.3819 66.8299 29.4848 64.407 31.9853C61.9732 34.494 59.5258 34.7042 57.9032 34.8407C56.5129 34.9581 56.4309 35.0482 56.3435 35.3648C56.1168 36.1756 56.166 36.959 56.4856 37.6934C59.198 43.9092 60.1895 54.2961 57.0647 60.2389C56.868 60.6102 56.4883 60.8231 56.0977 60.8231V60.8204Z"
           fill="url(#paint0_linear_1204_1481)"
@@ -420,8 +420,8 @@ export const DcIcon = () => {
           y2="34.595"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1204_1481"
@@ -431,8 +431,8 @@ export const DcIcon = () => {
           y2="37"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8CD6D6" />
-          <stop offset="1" stop-color="#FF9F80" />
+          <stop stopColor="#8CD6D6" />
+          <stop offset="1" stopColor="#FF9F80" />
         </linearGradient>
         <clipPath id="clip0_1204_1481">
           <rect width="75" height="74" fill="white" />
@@ -444,16 +444,16 @@ export const DcIcon = () => {
 export const CrossIcon = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
-    <line x1="11.3468" y1="11.5626" x2="32.56" y2="32.7758" stroke="url(#paint0_linear_1203_3617)" stroke-width="2.5"/>
-    <line x1="11.5072" y1="32.7757" x2="32.7204" y2="11.5625" stroke="url(#paint1_linear_1203_3617)" stroke-width="2.5"/>
+    <line x1="11.3468" y1="11.5626" x2="32.56" y2="32.7758" stroke="url(#paint0_linear_1203_3617)" strokeWidth="2.5"/>
+    <line x1="11.5072" y1="32.7757" x2="32.7204" y2="11.5625" stroke="url(#paint1_linear_1203_3617)" strokeWidth="2.5"/>
     <defs>
       <linearGradient id="paint0_linear_1203_3617" x1="10.4629" y1="12.4465" x2="31.6761" y2="33.6597" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#FFA280"/>
-        <stop offset="1" stop-color="#8FD9D9"/>
+        <stop stopColor="#FFA280"/>
+        <stop offset="1" stopColor="#8FD9D9"/>
       </linearGradient>
       <linearGradient id="paint1_linear_1203_3617" x1="12.3911" y1="33.6595" x2="33.6043" y2="12.4463" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#FFA280"/>
-        <stop offset="1" stop-color="#8FD9D9"/>
+        <stop stopColor="#FFA280"/>
+        <stop offset="1" stopColor="#8FD9D9"/>
       </linearGradient>
     </defs>
   </svg>

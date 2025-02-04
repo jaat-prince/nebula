@@ -1,13 +1,20 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, {useState} from "react";
 import { listData } from "../Helper/Helper";
 import Button from "./Button";
+import Sidebar from "./Sidebar";
 
 function Navbar() {
+     const [isOpen, setIsOpen] = useState(false);
+
+      const toggleSidebar = () => {
+        setIsOpen(!isOpen);
+      };
   return (
     <div className="bg-[#494336] pt-[11px] pb-[18px]">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 flex items-cebter justify-between gap-3">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 flex items-center justify-between gap-3">
         <div>
           <Link href={"/"} className=" w-full max-w-[114px]">
             <Image
@@ -34,7 +41,7 @@ function Navbar() {
           </ul>
           <Button btn={"BOOK NOW"} />
         </div>
-        <Link href={"/"} className="flex lg:hidden w-full max-w-[50px]">
+        <button className="flex lg:hidden w-full max-w-[50px]" onClick={toggleSidebar}>
           <Image
             src={"/assets/png/menu.png"}
             width={50}
@@ -42,8 +49,9 @@ function Navbar() {
             alt="logo"
             className="w-full max-w-[50px]"
           />
-        </Link>
+        </button>
       </div>
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar}/>
     </div>
   );
 }
