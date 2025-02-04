@@ -11,7 +11,7 @@ function Coreva() {
             width={1440}
             height={450}
             alt="logo"
-            className="w-full"
+            className="w-full min-[2500px]:hidden"
           />
         </div>
         <div className="w-full relative z-10">
