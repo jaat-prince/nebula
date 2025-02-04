@@ -185,3 +185,17 @@ export const matterData = [
     text: "At Nebula Vets, we believe in empowering pet owners with knowledge. Our veterinarians take the time to explain the findings of the animal health check, address your questions, and provide guidance on maintaining your pet's well-being. We are here to support you on your pet care journey and offer resources for at-home care and preventive measures.",
   },
 ];
+export const vaccantData = [
+  {
+    title: "Core Dog Vaccines",
+    text: "FVRCP: A combination vaccine that protects against Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia. FVRCP: A combination vaccine that protects against Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia. Feline Leukemia Virus: A virus transmitted through cat bites during fights. It’s recommended for kittens even if they will not be going outdoors.",
+  },
+  {
+    title: "Non-Core Dog Vaccines",
+    text: "Bordetella: A disease more commonly known as kennel cough and is required by dog boarding and daycare facilities.Lyme: Lyme Disease is carried by ticks and can be useful for dogs that visit areas, such as woodland areas, with high tick exposure.Canine Influenza Virus: Also called dog flu, a contagious virus that causes respiratory issues.",
+  },
+  {
+    title: "Cat Core Vaccines",
+    text: "FVRCP: A combination vaccine that protects against Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia.Rabies: Legally required in most states, for both indoor and outdoor catsFeline Leukemia Virus: A virus transmitted through cat bites during fights. It’s recommended for kittens even if they will not be going outdoors.",
+  },
+];
