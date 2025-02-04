@@ -51,7 +51,7 @@ export const AddIcon = () => {
 };
 export const FaceIcon = () => {
   return (
-    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F">
+    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="blank">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="50"
@@ -82,7 +82,7 @@ export const FaceIcon = () => {
 };
 export const InIcon = () => {
   return (
-    <a href="#">
+    <a href="#" target="blank">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="50"
@@ -113,7 +113,7 @@ export const InIcon = () => {
 };
 export const InstIcon = () => {
   return (
-    <a href="https://www.instagram.com/accounts/login/?hl=en">
+    <a href="https://www.instagram.com/accounts/login/?hl=en" target="blank">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="50"
