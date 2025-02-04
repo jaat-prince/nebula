@@ -18,12 +18,30 @@ export const listData = [
   },
 ];
 export const whyData = [
-  { title: "Cutting-Edge Technology", icon: <AddIcon /> },
-  { title: "Environmentally conscious​", icon: <AddIcon /> },
-  { title: "Independant", icon: <AddIcon /> },
-  { title: "Expert Team", icon: <AddIcon /> },
-  { title: "Progressive Medicine", icon: <AddIcon /> },
-  { title: "Education", icon: <AddIcon /> },
+  {
+    title: "Cutting-Edge Technology",
+    text: "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
+  {
+    title: "Environmentally conscious​",
+    text: "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
+  {
+    title: "Independant",
+    text: "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
+  {
+    title: "Expert Team",
+    text: "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
+  {
+    title: "Progressive Medicine",
+    text: "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
+  {
+    title: "Education",
+    text: "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
 ];
 export const sevData = [
   {

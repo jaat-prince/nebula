@@ -52,6 +52,7 @@ function Navbar() {
         </button>
       </div>
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar}/>
+   
     </div>
   );
 }
