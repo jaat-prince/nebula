@@ -19,11 +19,11 @@ function Care() {
         }}
         modules={[Pagination]}
         onSwiper={(swiper) => console.log(swiper)}
-        className="mySwiper max-lg:h-[450px]"
+        className="mySwiper max-md:h-[450px] max-lg:h-[530px]"
         breakpoints={{
           300: {
-            slidesPerView: 1,
-            spaceBetween: 90,
+            slidesPerView: 1.2,
+            spaceBetween: 10,
           },
           360: {
             slidesPerView: 1.7,
@@ -40,7 +40,7 @@ function Care() {
         }}
       >
         <SwiperSlide>
-          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] lg:h-[550px]">
+          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] md:h-[480px] lg:h-[550px]">
             <IjectIcon />
             <div>
               <h1 className="text-2x; md:text-[32px] lg:text-[36px] font-normal text-[var(--Grey,#D7D9DD)] mt-[15px] sm:mt-6 md:mt-[35px] lg:mt-[50px]">
@@ -62,7 +62,7 @@ function Care() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] lg:h-[550px]">
+          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] md:h-[480px] lg:h-[550px]">
             <HeartIcon />
             <div>
               <h1 className="text-2x; md:text-[32px] lg:text-[36px] font-normal text-[var(--Grey,#D7D9DD)] mt-[15px] sm:mt-6 md:mt-[35px] lg:mt-[50px]">
@@ -84,7 +84,7 @@ function Care() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] lg:h-[550px]">
+          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] md:h-[480px] lg:h-[550px]">
             <SurIcon />
             <div>
               <h1 className="text-2x; md:text-[32px] lg:text-[36px] font-normal text-[var(--Grey,#D7D9DD)] mt-[15px] sm:mt-6 md:mt-[35px] lg:mt-[50px]">
@@ -106,7 +106,7 @@ function Care() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] lg:h-[550px]">
+          <div className="bg-[#494336] w-full max-w-[218px] sm:max-w-[310px] pt-[25px] px-5 h-[400px] md:h-[480px] lg:h-[550px]">
             <DcIcon />
             <div>
               <h1 className="text-2x; md:text-[32px] lg:text-[36px] font-normal text-[var(--Grey,#D7D9DD)] mt-[15px] sm:mt-6 md:mt-[35px] lg:mt-[50px] w-full max-w-[171px]">

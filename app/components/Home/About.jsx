@@ -4,18 +4,18 @@ import Button from "../Common/Button";
 
 function About() {
   return (
-    <div className="bg-[var(--Grey-2,rgba(215,217,221,0.50))] pt-[33px] sm:pt-[40px] md:pt-[60px] lg:pt-[81px] pb-[60px] md:pb-[80px]">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 flex flex-wrap lg:flex-nowrap lg:gap-[69px] items-center relative">
-        <div className="absolute right-0 bottom-0 lg:top-0 w-full max-w-[340px]">
+    <div className="bg-[var(--Grey-2,rgba(215,217,221,0.50))] pt-[33px] sm:pt-[40px] md:pt-[60px] lg:pt-[81px] pb-[60px] md:pb-[80px] relative">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 flex flex-wrap lg:flex-nowrap lg:gap-[69px] items-center">
+        <div className="absolute right-0 bottom-0 lg:top-[0] w-full max-w-[294px] sm:max-w-[340px]">
           <Image
             src={"/assets/png/wave.png"}
             width={611}
             height={392}
             alt="logo"
-            className="w-full"
+            className="w-full max-w-[294px] sm:max-w-[340px]"
           />
         </div>
-        <div className="w-full lg:max-w-[591px]">
+        <div className="w-full lg:max-w-[591px] relative z-10">
           <Image
             src={"/assets/png/Dog.png"}
             width={591}
@@ -24,11 +24,11 @@ function About() {
             className="w-full lg:max-w-[591px]"
           />
         </div>
-        <div className="w-full lg:max-w-[639px] mt-[60px] lg:mt-0">
-          <h1 className="text-2xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-normal text-[var(--Brown,#494336)]">
+        <div className="w-full lg:max-w-[639px] mt-[60px] lg:mt-0 relative z-10">
+          <h1 className="text-2xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-normal text-[var(--Brown,#494336)] ff-av">
             About Nebula Vets ?
           </h1>
-          <p className="text-sm md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] mt-[13px] sm:mt-4 md:mt-6 lg:mt-8">
+          <p className="text-sm md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] mt-[13px] sm:mt-4 md:mt-6 lg:mt-8 ff-av">
             Founded on a strong set of core values, the story of Nebula Vets
             began with Daniel Hodnett-Lewis, a visionary veterinary surgeon from
             England, UK. Fueled by a deep passion for animals and a desire to

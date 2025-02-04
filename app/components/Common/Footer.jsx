@@ -16,7 +16,7 @@ function Footer() {
             <div className="border border-[#D9D9D9] w-full max-w-[309px] mt-2 md:mt-4">
               <input
                 type="email"
-                className=" px-[14px] py-[6px] bg-transparent border-0 outline-none text-[var(--Grey,#D7D9DD)] placeholder:text-[var(--Grey,#D7D9DD)] placeholder:text-lg text-lg"
+                className=" px-[14px] py-[6px] bg-transparent border-0 outline-none text-[var(--Grey,#D7D9DD)] placeholder:text-[var(--Grey,#D7D9DD)] placeholder:text-lg text-lg ff-av"
                 placeholder="Email"
               />
             </div>
@@ -36,7 +36,7 @@ function Footer() {
                   <li key={index} className="mt-[6px]">
                     <a
                       href="#"
-                      className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline hover:text-[#fff] transition-all duration-500 ease-in-out"
+                      className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline ff-av hover:text-[#fff] transition-all duration-500 ease-in-out"
                     >
                       {item.title}
                     </a>
@@ -53,7 +53,7 @@ function Footer() {
                   <li key={index} className="mt-[6px]">
                     <a
                       href="#"
-                      className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline hover:text-[#fff] transition-all duration-500 ease-in-out"
+                      className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline ff-av hover:text-[#fff] transition-all duration-500 ease-in-out"
                     >
                       {item.title}
                     </a>
@@ -70,7 +70,7 @@ function Footer() {
                   <li key={index} className="mt-[6px]">
                     <a
                       href="#"
-                      className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline hover:text-[#fff] transition-all duration-500 ease-in-out"
+                      className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline ff-av hover:text-[#fff] transition-all duration-500 ease-in-out"
                     >
                       {item.title}
                     </a>

@@ -8,10 +8,10 @@ function Last() {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 pt-[60px] lg:pt-0">
         <div className="flex items-center lg:gap-[71px] flex-wrap lg:flex-nowrap">
           <div className="w-full max-w-[568px]">
-            <h1 className="text-2xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-normal text-[var(--Grey,#D7D9DD)]">
+            <h1 className="text-2xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-normal text-[var(--Grey,#D7D9DD)] ff-av">
               Our Mission
             </h1>
-            <p className="ext-sm md:text-lg lg:text-xl font-normal text-[var(--Grey,#D7D9DD)] mt-[13px] sm:mt-4 md:mt-6 lg:mt-8">
+            <p className="ext-sm md:text-lg lg:text-xl font-normal text-[var(--Grey,#D7D9DD)] mt-[13px] sm:mt-4 md:mt-6 lg:mt-8 ff-av">
               Our Mission is to establish a new standard of excellence in
               veterinary care, driven by an unwavering ethical conscience.
             </p>
