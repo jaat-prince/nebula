@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="bg-[#494336]">
       <div className="border-t border-t-[#D8DADC]">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 pt-[61px] md:pt-[60px] pb-[111px] md:pb-[80px] lg:pb-[59px] flex justify-between gap-5 flex-wrap lg:flex-nowrap">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 pt-[61px] md:pt-[60px] pb-[111px] md:pb-[80px] lg:pb-[59px] gap-y-[43px] flex gap-x-[140px] xl:gap-x-[240px] flex-wrap lg:flex-nowrap">
           <div>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal text-[var(--Grey,#D7D9DD)]">
               Stay in touch:
@@ -26,7 +26,7 @@ function Footer() {
               <InstIcon />
             </div>
           </div>
-          <div className="flex gap-y-[25px] gap-x-[120px]  sm:gap-x-[96px] flex-wrap lg:flex-nowrap">
+          <div className="flex gap-y-[25px] max-lg:justify-between gap-x-[170px] lg:gap-x-[60px] xl:gap-x-[96px] flex-wrap lg:flex-nowrap w-full">
             <div>
               <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal text-[var(--Grey,#D7D9DD)] leading-[150%]">
                 Services
