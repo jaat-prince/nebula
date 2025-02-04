@@ -5,8 +5,8 @@ import Image from "next/image";
 function Last() {
   return (
     <div className="bg-[#494336]">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 pt-[60px] lg:pt-0">
-        <div className="flex items-center lg:gap-[71px] flex-wrap lg:flex-nowrap md:pl-[65px]">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 pt-[60px] lg:pt-0">
+        <div className="flex items-center lg:gap-[71px] flex-wrap lg:flex-nowrap">
           <div className="w-full max-w-[568px]">
             <h1 className="text-2xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-normal text-[var(--Grey,#D7D9DD)]">
               Our Mission

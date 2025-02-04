@@ -4,8 +4,8 @@ import Care from "./Care";
 
 function Services() {
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 pt-[80px]">
-      <div className="md:ml-[60px]">
+    <>
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 pt-[80px]">
         <h1 className="text-2xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-normal text-[var(--Brown,#494336)]">
           Our Services
         </h1>
@@ -23,10 +23,12 @@ function Services() {
           }
         />
       </div>
-      <div className="mt-[65px] md:mt-[79px] mb-[90px] md:mb-[110px] lg:mb-[140px] ">
-        <Care />
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12">
+        <div className="mt-[65px] md:mt-[79px] mb-[90px] md:mb-[110px] lg:mb-[140px] ">
+          <Care />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

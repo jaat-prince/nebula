@@ -7,8 +7,8 @@ function Hero() {
     <div
       className={`bg-[var(--Grey-2,rgba(215,217,221,0.50))] md:bg-[url(/assets/png/Heroimage.png)] bg-cover bg-center bg-no-repeat pt-[35px] sm:pt-[110px] md:pt-[160px] lg:pt-[193px] md:pb-[85px] overflow-hidden`}
     >
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 relative md:ml-[65px]">
-        <div className="absolute right-[-100px] sm:right-[-163px] top-[50px] md:top-[-90px] w-full max-w-[265px] sm:max-w-[400px]">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 relative">
+        <div className="absolute right-[-100px] sm:right-[-193px]  xl:right-[-283px] top-[50px] md:top-[-90px] w-full max-w-[265px] sm:max-w-[400px]">
           <Image
             src={"/assets/png/cir.png"}
             width={482}
