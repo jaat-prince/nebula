@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Map from './Map'
 
 function Downpr() {
   return (
@@ -29,14 +30,8 @@ function Downpr() {
                 <a href='#' className='text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)]'>hello@nebulavets.com</a>
        </div>
                                 
-                                <div className='w-full max-w-[600px]'> 
-                                              <Image
-                                                                                   src={"/assets/png/map.png"}
-                                                                                   width={600}
-                                                                                   height={620}
-                                                                                   alt="logo"
-                                                                                   className="w-full "
-                                                                                 />
+                                <div className="w-full"> 
+                                           <Map/>
                                              </div>
                                            
                                </div>
