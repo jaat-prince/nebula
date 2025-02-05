@@ -263,3 +263,47 @@ export const urgentData = [
     text: "We encourage pet owners to be prepared for emergencies. Keep our contact information readily available and familiarize yourself with basic first aid for pets. Prompt action and early intervention can make a significant difference in emergency situations.",
   },
 ];
+export const diagnoData = [
+  {
+    title: "Blood Panel",
+    text: "Blood Panel: Our in-house laboratory enables us to perform a variety of blood tests, including complete blood counts (CBC), blood chemistry profiles, thyroid hormone levels, and infectious disease screenings. These tests provide valuable information about your pet's overall health, organ function, blood cell counts, and help detect potential underlying health issues.",
+  },
+  {
+    title: "Urinalysis",
+    text: "Urinalysis is important in diagnosing and monitoring various conditions that can affect your pet's urinary system and overall health. Urine samples provide valuable insights into your pet's well-being, allowing us to detect and address issues such as urinary tract infections (UTIs), kidney diseases, bladder problems, and even diabetes.",
+  },
+  {
+    title: "Fecal Testing",
+    text: "Fecal testing is significant in identifying and treating parasites that can affect the health of your pet and potentially pose a risk to your family members. Fecal testing is a vital diagnostic tool that allows us to detect the presence of various parasites, including worms and Giardia, even when your pet may not display any symptoms of disease.",
+  },
+  {
+    title: "Cytology",
+    text: "Cytology is used for diagnosing and evaluating various conditions that may affect your pet's health. Cytology involves the analysis of cells obtained from different sources, such as skin, ears, or masses, and it provides valuable insights into identifying infections, parasites, and abnormalities, including cancerous or abnormal cells.",
+  },
+  {
+    title: "Histopathology",
+    text: "For a more in-depth analysis of tissues, we offer histopathology services. Tissue samples obtained through biopsies or surgical procedures are examined under a microscope, allowing us to diagnose and characterize diseases, identify tumors, and guide treatment strategies.",
+  },
+  {
+    title: "Tick & Heartworm testing",
+    text: "At Nebula Vets, we place a strong emphasis on preventive care and recommend annual tick and heartworm testing for your pet's overall well-being. Tick-borne diseases and heartworm disease are significant health concerns that can have severe consequences if left untreated. Regular testing, in conjunction with monthly preventatives, allows us to detect these conditions early and provide timely treatment to ensure your pet's optimal health.",
+  },
+  {
+    title: "Allergy Testing",
+    text: "Allergy Testing: Nebula Vets offers comprehensive allergy testing to identify the specific allergens that trigger your pet's allergic reactions. Through intradermal or blood-based allergy tests, we determine environmental and food allergies, allowing us to develop tailored treatment plans and improve your pet's quality of life.",
+  },
+];
+export const diagData = [
+  {
+    title: "Digital Radiography",
+    text: "Our advanced digital radiography system allows us to capture high-resolution images of your pet's bones, organs, and soft tissues. Radiographs are particularly useful in diagnosing fractures, assessing the condition of internal organs, identifying tumors or foreign objects, and evaluating the skeletal system.",
+  },
+  {
+    title: "Ultrasound",
+    text: "With our cutting-edge ultrasound technology, we can visualize and assess the internal structures of your pet's body in real time. Ultrasounds help us examine the heart, abdomen, reproductive system, and identify abnormalities or potential health concerns. This non-invasive imaging technique aids in diagnosing conditions and guiding treatment decisions.",
+  },
+  {
+    title: "Echocardiograms:",
+    text: "Echocardiogram services to assess the health and function of your pet's heart. An echocardiogram, also known as a cardiac ultrasound, is a non-invasive and painless procedure that provides detailed images of the heart's structures and function.",
+  },
+];
