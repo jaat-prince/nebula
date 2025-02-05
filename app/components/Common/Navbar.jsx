@@ -22,7 +22,7 @@ function Navbar() {
               width={114}
               height={69}
               alt="logo"
-              className="w-full max-w-[114px]"
+              className="w-full"
             />
           </Link>
         </div>
