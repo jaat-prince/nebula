@@ -19,7 +19,7 @@ function Kutta() {
           }}
           modules={[Pagination]}
           onSwiper={(swiper) => console.log(swiper)}
-          className="mySwiper  "
+          className="mySwiper"
           breakpoints={{
             300: {
               slidesPerView: 1,
