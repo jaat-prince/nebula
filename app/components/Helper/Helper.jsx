@@ -337,3 +337,29 @@ export const pharData = [
     text: "If your pet requires ongoing medication, our pharmacy makes it easy for you to refill prescriptions. Simply contact us, and we will have your pet's medications ready for pick-up or arrange for convenient delivery options.",
   },
 ];
+export const surgeryData = [
+  {
+    title: "Expert Surgical Team",
+    text: "Our team of skilled veterinarians brings years of experience and expertise to the operating table. With a deep understanding of advanced surgical techniques and a commitment to staying abreast of the latest advancements in veterinary surgery, our surgeons are well-equipped to handle a wide range of procedures with exceptional skill and care.",
+  },
+  {
+    title: "Comprehensive Surgical Services",
+    text: "From routine spays and neuters to complex soft tissue surgeries, orthopedic procedures, tumor removals, and emergency surgeries, our hospital offers a comprehensive range of surgical services tailored to meet the unique needs of your pet. You can trust us to deliver personalized surgical solutions that prioritize your pet's well-being.",
+  },
+  {
+    title: "Cutting-Edge Facilities and Technology",
+    text: "At Nebula Vets, we take pride in our state-of-the-art surgical facilities and advanced equipment. Our hospital is equipped with modern anesthesia monitoring systems, surgical instruments, and techniques, ensuring the highest level of safety, precision, and comfort for your pet.",
+  },
+  {
+    title: "Personalized Care",
+    text: "We understand that each pet is unique, and their surgical needs require individualized attention. Our veterinarians take the time to thoroughly evaluate your pet's health, discuss treatment options, and design a customized surgical plan tailored to their specific condition and requirements. We value open communication and are always available to address any concerns or questions you may have.",
+  },
+  {
+    title: "Optimal Safety and Comfort",
+    text: "Your pet's safety and comfort are of paramount importance to us. Our experienced team utilizes the latest anesthetic protocols tailored to your pet's needs, and we closely monitor their vital signs throughout the entire surgical procedure. We also employ advanced pain management techniques to ensure your pet's well-being and minimize any discomfort.",
+  },
+  {
+    title: "Compassionate Post-Surgical Care",
+    text: "Our commitment to your pet's well-being extends beyond the operating room. After surgery, we provide attentive post-operative care to support their recovery. We provide detailed instructions on at-home care, pain management, and follow-up appointments to ensure a smooth healing process. Our caring staff is always here to address any concerns and provide support during your pet's recovery journey.",
+  },
+];
