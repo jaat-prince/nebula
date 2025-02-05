@@ -1,22 +1,22 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { listData } from "../Helper/Helper";
 import Button from "./Button";
 import Sidebar from "./Sidebar";
 
 function Navbar() {
-     const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-      const toggleSidebar = () => {
-        setIsOpen(!isOpen);
-      };
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div className="bg-[#494336] pt-[11px] pb-[18px]">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 flex items-center justify-between gap-3">
         <div>
-          <Link href={"/"} className=" w-full max-w-[114px]">
+          <Link href={"/"} className=" w-full max-w-[90px] sm:max-w-[114px]">
             <Image
               src={"/assets/png/logo.png"}
               width={114}
@@ -41,7 +41,10 @@ function Navbar() {
           </ul>
           <Button btn={"BOOK NOW"} />
         </div>
-        <button className="flex lg:hidden w-full max-w-[50px]" onClick={toggleSidebar}>
+        <button
+          className="flex lg:hidden w-full max-w-[50px]"
+          onClick={toggleSidebar}
+        >
           <Image
             src={"/assets/png/menu.png"}
             width={50}
@@ -51,8 +54,7 @@ function Navbar() {
           />
         </button>
       </div>
-      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar}/>
-   
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
     </div>
   );
 }

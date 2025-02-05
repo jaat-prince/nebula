@@ -4,8 +4,17 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="bg-[#494336] pt-[33px] sm:pt-[60px] md:pt-[110px] lg:pt-[140px] pb-0 lg:pb-[85px]">
-      <div className="max-w-[1180px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 relative flex flex-wrap lg:flex-nowrap">
+    <div className="bg-[#494336] relative overflow-hidden">
+      <div className="lg:absolute -right-2 bottom-0 max-lg:hidden w-full lg:max-w-[653px]">
+        <Image
+          src={"/assets/png/trans.png"}
+          width={584}
+          height={372}
+          alt="logo"
+          className="w-full mt-6 lg:mt-0"
+        />
+      </div>
+      <div className="max-w-[1180px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 relative flex flex-wrap lg:flex-nowrap pt-[33px] sm:pt-[60px] md:pt-[110px] lg:pt-[140px] pb-0 lg:pb-[85px]">
         <div className="w-full">
           <h1 className="text-[32px] sm:text-[42px] md:text-[52px] lg:text-[70px] font-normal text-[var(--Grey,#D7D9DD)] w-full max-w-[230px] sm:max-w-[578px] ff-av">
             Veterinary Services
@@ -20,15 +29,15 @@ function Hero() {
             btn={"BOOK NOW"}
             btnclass={"mt-[45px] sm:mt-[40px] max-sm:py-[6px] max-sm:px-[19px]"}
           />
-        </div>
 
-        <Image
-          src={"/assets/png/trans.png"}
-          width={584}
-          height={372}
-          alt="logo"
-          className="w-full lg:max-w-[584px] mt-6 lg:mt-0 lg:-mr-12 xl:-mr-[60px]"
-        />
+          <Image
+            src={"/assets/png/trans.png"}
+            width={584}
+            height={372}
+            alt="logo"
+            className="w-full lg:max-w-[584px] mt-6 lg:mt-0 lg:hidden"
+          />
+        </div>
       </div>
     </div>
   );
