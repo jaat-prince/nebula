@@ -26,7 +26,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className="hidden lg:flex items-center gap-[50px] xl:gap-[69px]">
+        <div className="hidden lg:flex items-center gap-[40px] xl:gap-[69px]">
           <ul className="flex gap-[38px] xl:gap-[66px] items-center">
             {listData.map((item, index) => (
               <li key={index}>
