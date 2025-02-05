@@ -451,3 +451,29 @@ export const laserData = [
     text: "Laser therapy can be used in conjunction with other treatment modalities to enhance overall outcomes. It can complement medications, rehabilitation exercises, acupuncture, or post-operative care, providing a holistic approach to pet healthcare.",
   },
 ];
+export const jionData = [
+  {
+    title: "Commitment to Excellence",
+    text: "At Nebula Vets, we strive for excellence in everything we do. Our team is committed to providing the highest quality veterinary care, utilizing advanced technologies, and staying up-to-date with the latest advancements in the field. We foster a culture of continuous learning and growth, encouraging our team members to expand their knowledge and skills.",
+  },
+  {
+    title: "Collaborative and Supportive Environment",
+    text: "We value teamwork and collaboration. At Nebula Vets, you will be part of a supportive and inclusive team that shares a common goal: providing exceptional care to our patients. Our collaborative environment encourages open communication, knowledge sharing, and mutual support among team members.",
+  },
+  {
+    title: "Advanced Facilities and Technology",
+    text: "Nebula Vets is equipped with state-of-the-art facilities and cutting-edge technology to support our veterinary professionals. We believe in investing in the best resources to deliver outstanding care. Our advanced equipment and tools enable our team to provide accurate diagnoses and deliver effective treatments.",
+  },
+  {
+    title: "Focus on Work-Life Balance",
+    text: "We understand the importance of maintaining a healthy work-life balance. At Nebula Vets, we strive to create schedules that allow our team members to enjoy their personal lives while pursuing fulfilling careers. We prioritize employee well-being and believe that a happy team leads to better patient care.",
+  },
+  {
+    title: "Continuous Professional Development",
+    text: "Nebula Vets is committed to the growth and development of our team members. We offer opportunities for continuing education, conferences, workshops, and training programs to enhance your veterinary skills and broaden your knowledge base. We believe in supporting your professional goals and providing the resources you need to excel in your career.",
+  },
+  {
+    title: "A Culture of Compassion",
+    text: "At Nebula Vets, compassion is at the heart of everything we do. We not only care for our patients but also prioritize empathy and understanding towards their families. Our team is dedicated to delivering personalized care with kindness, sensitivity, and respect.",
+  },
+];
