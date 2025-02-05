@@ -3,7 +3,7 @@ import React from "react";
 
 function Coreva() {
   return (
-    <div className="bg-[var(--Grey-2,rgba(215,217,221,0.50))] pt-[60px] md:pt-[80px] pb-[120px] md:pb-[140px] relative">
+    <div className="bg-[var(--Grey-2,rgba(215,217,221,0.50))] pt-[60px] md:pt-[80px] pb-[120px] md:pb-[140px] relative overflow-hidden">
       <div className="max-w-[1180px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12">
         <div className="w-full absolute bottom-0 left-[0px]">
           <Image
@@ -11,7 +11,7 @@ function Coreva() {
             width={1440}
             height={450}
             alt="logo"
-            className="w-full min-[2500px]:hidden"
+            className="w-full"
           />
         </div>
         <div className="w-full relative z-10">
