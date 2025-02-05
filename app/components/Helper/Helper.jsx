@@ -229,3 +229,37 @@ export const dentalData = [
     text: "We believe in empowering pet owners with knowledge. Our dental care services include client education on proper dental hygiene at home, brushing techniques, and recommended dental care products. We provide guidance on preventive measures, diet choices, and regular dental check-ups to maintain your pet's oral health between visits.",
   },
 ];
+export const urgentData = [
+  {
+    title: "Immediate Access to Care",
+    text: "We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and our experienced team is ready to address critical situations with efficiency and expertise.",
+  },
+  {
+    title: "Skilled Veterinary Team",
+    text: "Our veterinarians have extensive experience in emergency medicine and are well-versed in handling urgent and critical cases. They possess the knowledge, skills, and quick decision-making abilities necessary to provide the best possible care for your pet in emergency situations.",
+  },
+  {
+    title: "State-of-the-Art Facilities",
+    text: "Nebula Vets is equipped with advanced diagnostic equipment and medical technology to support our emergency and urgent care services. From digital radiography and ultrasound to an in-house laboratory, we have the tools needed to quickly and accurately diagnose your pet's condition, enabling us to provide appropriate and timely treatments.",
+  },
+  {
+    title: "Compassionate and Calm Approach",
+    text: "We understand that emergencies can be stressful and emotional for both you and your pet. Our veterinary team is trained to handle these situations with compassion and a calm demeanor. We prioritize providing a comforting environment to help alleviate anxiety and provide support to both you and your pet during difficult times.",
+  },
+  {
+    title: "Comprehensive Emergency Services",
+    text: "Nebula Vets offers a wide range of emergency services, including critical care, trauma management, stabilization, pain management, and advanced life-saving procedures. We are equipped to handle various emergencies, such as severe injuries, poisoning, respiratory distress, seizures, and more.",
+  },
+  {
+    title: "Collaborative Care",
+    text: "We believe in open communication and collaboration. Our team works closely with you to ensure you understand your pet's condition, treatment options, and associated costs. We provide transparent and compassionate guidance to help you make informed decisions about your pet's emergency care.",
+  },
+  {
+    title: "Seamless Referrals",
+    text: "In complex cases requiring specialized care, we maintain strong relationships with local specialty hospitals and can facilitate seamless referrals when necessary. We work together with trusted specialists to ensure your pet receives the best possible care for their specific needs.",
+  },
+  {
+    title: "Emergency Preparedness",
+    text: "We encourage pet owners to be prepared for emergencies. Keep our contact information readily available and familiarize yourself with basic first aid for pets. Prompt action and early intervention can make a significant difference in emergency situations.",
+  },
+];
