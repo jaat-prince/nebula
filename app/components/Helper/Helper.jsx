@@ -307,3 +307,33 @@ export const diagData = [
     text: "Echocardiogram services to assess the health and function of your pet's heart. An echocardiogram, also known as a cardiac ultrasound, is a non-invasive and painless procedure that provides detailed images of the heart's structures and function.",
   },
 ];
+export const pharData = [
+  {
+    title: "Convenience",
+    text: "Having an in-house pharmacy at our veterinary practice means you can conveniently obtain all your pet's medications and healthcare products in one place. No more running to different locations or waiting for orders to arrive. Our knowledgeable pharmacy team is ready to assist you and provide expert guidance on proper medication administration.",
+  },
+  {
+    title: "Quality Assurance",
+    text: "We understand the importance of ensuring the safety and effectiveness of medications for your pets. Our pharmacy sources medications directly from reputable manufacturers, guaranteeing their authenticity, quality, and proper storage. You can have peace of mind knowing that the medications you receive from us are of the highest standard.",
+  },
+  {
+    title: "Prescription Medications",
+    text: "Our pharmacy carries a wide range of prescription medications to address various medical conditions and treatments. Our veterinarians will carefully evaluate your pet's needs and prescribe the most appropriate medication, dosages, and duration. Our goal is to support your pet's health and recovery with the right medications tailored to their specific requirements.",
+  },
+  {
+    title: "Prescription Diets",
+    text: "We offer a selection of therapeutic prescription diets designed to address specific dietary needs and support various health conditions. Whether your pet requires a special diet for weight management, food allergies, kidney disease, or other health concerns, our pharmacy can provide you with the necessary options to meet their nutritional requirements.",
+  },
+  {
+    title: "Wellness and Preventive Products",
+    text: "Beyond medications, our pharmacy also stocks a range of wellness and preventive products to support your pet's overall health. This includes flea and tick preventives, heartworm preventives, joint supplements, dental care products, grooming supplies, and more. Our knowledgeable team can help you choose the right products to keep your pet healthy and thriving.",
+  },
+  {
+    title: "Expert Guidance",
+    text: "Our pharmacy team is composed of experienced professionals who are dedicated to providing you with personalized service and guidance. We are here to answer your questions, address any concerns, and offer advice on medication administration, potential side effects, and proper storage.ur pharmacy team is composed of experienced professionals who are dedicated to providing you with personalized service and guidance. We are here to answer your questions, address any concerns, and offer advice on medication administration, potential side effects, and proper storage.",
+  },
+  {
+    title: "Prescription Refills",
+    text: "If your pet requires ongoing medication, our pharmacy makes it easy for you to refill prescriptions. Simply contact us, and we will have your pet's medications ready for pick-up or arrange for convenient delivery options.",
+  },
+];
