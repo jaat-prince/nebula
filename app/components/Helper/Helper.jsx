@@ -1,5 +1,3 @@
-import { AddIcon } from "./Icon";
-
 export const listData = [
   {
     title: "SERVICES",
