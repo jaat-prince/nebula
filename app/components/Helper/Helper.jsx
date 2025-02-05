@@ -363,3 +363,29 @@ export const surgeryData = [
     text: "Our commitment to your pet's well-being extends beyond the operating room. After surgery, we provide attentive post-operative care to support their recovery. We provide detailed instructions on at-home care, pain management, and follow-up appointments to ensure a smooth healing process. Our caring staff is always here to address any concerns and provide support during your pet's recovery journey.",
   },
 ];
+export const spyData = [
+  {
+    title: "Experienced Surgical Team",
+    text: "At Nebula Vets, our veterinarians have extensive experience in performing spay and neuter surgeries. They possess the expertise to perform these procedures efficiently and safely, ensuring the best possible outcome for your pet.",
+  },
+  {
+    title: "Health Benefits",
+    text: "Spaying (for females) and neutering (for males) offer numerous health benefits for your pets. Spaying helps prevent uterine infections and reduces the risk of mammary tumors and ovarian cancers, while neutering eliminates the risk of testicular cancer and reduces the incidence of prostate problems. These procedures can also help in curbing certain behavioral issues related to mating instincts.",
+  },
+  {
+    title: "Surgical Expertise",
+    text: "Our veterinary hospital is equipped with state-of-the-art surgical facilities and advanced monitoring equipment. We utilize modern anesthetic protocols and closely monitor your pet's vital signs during the procedure, ensuring their safety and well-being. Our surgical team adheres to the highest standards of precision and sterilization to minimize the risk of complications.",
+  },
+  {
+    title: "Personalized Care",
+    text: "At Nebula Vets, we believe in providing personalized care for each pet. Our veterinarians will evaluate your pet's overall health and discuss the appropriate timing and procedure options based on their age, breed, and individual needs. We prioritize open communication and are here to answer any questions or address any concerns you may have.",
+  },
+  {
+    title: "Compassionate Post-Surgical Care",
+    text: "After the spay or neuter procedure, our dedicated staff provides compassionate post-operative care to support your pet's recovery. We provide detailed instructions on pain management, incision care, and follow-up appointments to ensure a smooth healing process. Our team is available to address any concerns and provide guidance throughout your pet's recovery journey.",
+  },
+  {
+    title: "Overpopulation Control",
+    text: "By choosing to spay or neuter your pet, you contribute to controlling the overpopulation of animals. Countless unwanted animals end up in shelters or face a life on the streets. Spaying and neutering are responsible choices that help reduce the number of homeless pets and ensure a healthier pet population overall.",
+  },
+];
