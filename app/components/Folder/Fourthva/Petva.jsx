@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Petva() {
   return (
-    <div className="bg-[var(--Brown,#494336)] pt-[60px] md:pt-[80px] pb-[161px] lg:pb-[85px] relative">
+    <div className="bg-[var(--Brown,#494336)] pt-[60px] md:pt-[80px] pb-[161px] lg:pb-[47px] relative">
       <div className="max-w-[1180px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12">
         <div className="absolute right-0 w-full max-w-[603px] bottom-0">
           <Image
