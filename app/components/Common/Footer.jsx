@@ -3,6 +3,7 @@ import Button from "./Button";
 import Image from "next/image";
 import { FaceIcon, InstIcon, InIcon } from "../Helper/Icon";
 import { comData, contData, sevData } from "../Helper/Helper";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -21,9 +22,27 @@ function Footer() {
               />
             </div>
             <div className="flex gap-5 mt-[17px] md:mt-[22px]">
-              <FaceIcon />
-              <InIcon />
-              <InstIcon />
+              <Link
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"
+                target="blank"
+                className="hover:scale-125 hover:rotate-45 transition-all ease-in-out duration-500 "
+              >
+                <FaceIcon />
+              </Link>
+              <Link
+                href="#"
+                target="blank"
+                className="hover:scale-125 hover:rotate-45 transition-all ease-in-out duration-500 "
+              >
+                <InIcon />
+              </Link>
+              <Link
+                href="https://www.instagram.com/accounts/login/?hl=en"
+                target="blank"
+                className="hover:scale-125 hover:rotate-45 transition-all ease-in-out duration-500 "
+              >
+                <InstIcon />
+              </Link>
             </div>
           </div>
           <div className="flex gap-y-[25px] max-lg:justify-between gap-x-[170px] lg:gap-x-[60px] xl:gap-x-[96px] flex-wrap lg:flex-nowrap w-full">
