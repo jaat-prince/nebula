@@ -389,3 +389,37 @@ export const spyData = [
     text: "By choosing to spay or neuter your pet, you contribute to controlling the overpopulation of animals. Countless unwanted animals end up in shelters or face a life on the streets. Spaying and neutering are responsible choices that help reduce the number of homeless pets and ensure a healthier pet population overall.",
   },
 ];
+export const skinData = [
+  {
+    title: "Specialized Expertise",
+    text: "Our veterinary team includes experienced dermatologists who have a deep understanding of skin conditions and diseases affecting pets. With their specialized knowledge and advanced training, they are equipped to diagnose and treat a wide range of dermatological issues.",
+  },
+  {
+    title: "Comprehensive Skin Examinations",
+    text: "We begin with a thorough examination of your pet's skin, coat, and overall health. Our dermatologists will assess any existing skin problems, identify potential allergies or infections, and perform necessary diagnostic tests to determine the root cause of the issue.",
+  },
+  {
+    title: "Advanced Diagnostic Techniques",
+    text: "At Nebula Vets, we employ state-of-the-art diagnostic techniques to gain a comprehensive understanding of your pet's skin condition. This may include skin scrapings, cytology, bacterial and fungal cultures, allergy testing, and biopsies. These tests provide valuable insights that guide our treatment approach.",
+  },
+  {
+    title: "Personalized Treatment Plans",
+    text: "Every pet is unique, and their skin care needs vary. Our dermatologists develop personalized treatment plans tailored to your pet's specific condition, considering factors such as their breed, age, and medical history. We utilize a combination of medications, topical treatments, dietary adjustments, and lifestyle modifications to address the underlying causes and provide effective relief.",
+  },
+  {
+    title: "Allergy Management",
+    text: "Allergies are a common cause of skin issues in pets. Our dermatologists have expertise in identifying and managing allergies, whether they are due to food, environmental factors, or parasites. We offer allergy testing, immunotherapy, and recommend appropriate allergen avoidance strategies to help your pet find relief.",
+  },
+  {
+    title: "Parasite Control",
+    text: "Fleas, ticks, and other parasites can wreak havoc on your pet's skin and coat. Our dermatology services include comprehensive parasite control, providing preventive measures and effective treatment options to keep your pet protected and their skin healthy.",
+  },
+  {
+    title: "Client Education and Support",
+    text: "We believe in empowering pet owners with knowledge and understanding. Our dermatology team will provide you with detailed information about your pet's skin condition, treatment options, and long-term care recommendations. We are here to answer your questions and support you throughout your pet's skin care journey.",
+  },
+  {
+    title: "Follow-up Care",
+    text: "Dermatological conditions often require ongoing management. We offer follow-up appointments to monitor your pet's progress, adjust treatment plans if needed, and ensure optimal skin health in the long run. We are committed to being with you every step of the way.",
+  },
+];
