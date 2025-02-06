@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Common/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 function Last() {
   return (
@@ -15,7 +16,7 @@ function Last() {
               Our Mission is to establish a new standard of excellence in
               veterinary care, driven by an unwavering ethical conscience.
             </p>
-            <Link herf="/micro">
+            <Link href="/micro">
               <Button
                 btn={"LEARN MORE"}
                 btnclass={

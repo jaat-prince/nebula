@@ -158,23 +158,28 @@ export const spayData = [
 export const travData = [
   {
     title: "Travel Certificates",
+    link: "/travel",
     text: "From domestic or international travel, you will usually require a health certificate for your pet. We can help with the necessary paperwork to allow your pet to join you on your travels –the process is simple and easy.",
   },
   {
     title: "Skin & Dermatology",
+    link: "/skin",
     text: "If your pet is experiencing uncomfortable symptoms such as itchy skin, hair loss, or rashes, it may be indicative of allergies or infections. Our team of highly trained veterinarians specializes in diagnosing and treating various skin issues that can cause distress to your beloved companion. With their expertise and comprehensive understanding of dermatological conditions, they will diligently assess your pet's symptoms and develop a tailored treatment plan to address the underlying cause of their discomfort.",
   },
 
   {
     title: "Microchipping",
+    link: "/micro",
     text: "A microchip, resembling a tiny grain of rice in size and shape, is delicately inserted beneath your pet's skin, specifically between the shoulder blades. This quick and completely safe procedure typically takes only a few minutes. ",
   },
   {
     title: "Laser Therapy",
+    link: "/laser",
     text: "Our state-of-the-art veterinary hospital utilizes advanced laser technology to provide non-invasive and drug-free treatment options that promote healing and enhance the well-being of your beloved pets.",
   },
   {
     title: "Hospice & Euthanasia",
+    link: "/hos",
     text: "The decision to say goodbye to your pet is the most difficult decision you’ll have to make. Our team at nebula vets is here to guide you through the process with compassion and can perform end-of-life services at the time of your choosing.",
   },
 ];
