@@ -1,12 +1,15 @@
 export const listData = [
   {
     title: "SERVICES",
+    link: "/Service",
   },
   {
     title: "ABOUT US",
+    link: "/about",
   },
   {
     title: "LOCATION",
+    link: "/practice",
   },
   {
     title: "CAREER",
@@ -72,21 +75,24 @@ export const contData = [
   },
 ];
 export const careData = [
-  { title: "Animal Health Check" },
-  { title: "Vaccinations" },
-  { title: "Dental" },
+  { title: "Animal Health Check", link: "/check" },
+  { title: "Vaccinations", link: "/vaccinat" },
+  { title: "Dental", link: "/dental" },
 ];
 export const sickData = [
-  { title: "Urgen Emergency Care" },
-  { title: "Telemedicine" },
-  { title: "Diagnostics" },
-  { title: "Urgent & Emergency Care" },
+  { title: "Urgent Emergency Care", link: "/urgent" },
+  { title: "Telemedicine", link: "/telemedicine" },
+  { title: "Diagnostics", link: "/diagno" },
+  { title: "Pharmacy", link: "/pharmacy" },
 ];
-export const surData = [{ title: "Surgeries" }, { title: "Spay & Neuter" }];
+export const surData = [
+  { title: "Surgeries", link: "/surgery" },
+  { title: "Spay & Neuter", link: "/spay" },
+];
 export const dcData = [
-  { title: "Travel Certificates" },
-  { title: "Skin & Dermatology" },
-  { title: "Euthanasia" },
+  { title: "Travel Certificates", link: "/travel" },
+  { title: "Skin & Dermatology", link: "/skin" },
+  { title: "Euthanasia", link: "/hos" },
 ];
 export const checkData = [
   {

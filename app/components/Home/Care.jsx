@@ -50,7 +50,7 @@ function Care() {
                 {careData.map((item, index) => (
                   <li key={index} className="mt-[6px]">
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline hover:text-[#fff] transition-all duration-500 ease-in-out"
                     >
                       {item.title}
@@ -72,7 +72,7 @@ function Care() {
                 {sickData.map((item, index) => (
                   <li key={index} className="mt-[6px]">
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline hover:text-[#fff] transition-all duration-500 ease-in-out w-full md:max-w-[163px]"
                     >
                       {item.title}
@@ -94,7 +94,7 @@ function Care() {
                 {surData.map((item, index) => (
                   <li key={index} className="mt-[6px]">
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline hover:text-[#fff] transition-all duration-500 ease-in-out w-full md:max-w-[163px]"
                     >
                       {item.title}
@@ -116,7 +116,7 @@ function Care() {
                 {dcData.map((item, index) => (
                   <li key={index} className="mt-[6px]">
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline hover:text-[#fff] transition-all duration-500 ease-in-out w-full md:max-w-[163px]"
                     >
                       {item.title}

@@ -31,7 +31,7 @@ function Navbar() {
             {listData.map((item, index) => (
               <li key={index}>
                 <a
-                  href="#"
+                  href={item.link}
                   className="text-sm font-medium tracking-[1.4px] text-[#D7D9DD] hover:text-[#fff] transition-all duration-500 ease-in-out uppercase"
                 >
                   {item.title}
