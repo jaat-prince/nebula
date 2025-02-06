@@ -8,11 +8,11 @@ body {
 }
 
 @font-face {
-  font-family: "AvanttTRIAL";
+  font-family: "Avantt";
   src: url("/app/avantt/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
 }
 .ff-av {
-  font-family: "AvanttTRIAL";
+  font-family: "Avantt";
 }
 
 .bg-var {
