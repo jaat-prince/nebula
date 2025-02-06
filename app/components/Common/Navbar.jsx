@@ -39,7 +39,9 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <Button btn={"BOOK NOW"} />
+          <Link href="/jion">
+            <Button btn={"BOOK NOW"} />
+          </Link>
         </div>
         <button
           className="flex lg:hidden w-full max-w-[50px]"

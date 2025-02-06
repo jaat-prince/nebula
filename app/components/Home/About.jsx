@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Button from "../Common/Button";
+import Link from "next/link";
 
 function About() {
   return (
@@ -36,12 +37,14 @@ function About() {
             a veterinary practice that would revolutionize the way pets are
             treated and cared for. Here's the story of Nebula Vets:
           </p>
-          <Button
-            btn={"LEARN MORE"}
-            btnclass={
-              "py-[6px] px-[10px] sm:py-[12px] sm:px-[27px] mt-[45px] sm:mt-10"
-            }
-          />
+          <Link href="/about">
+            <Button
+              btn={"LEARN MORE"}
+              btnclass={
+                "py-[6px] px-[10px] sm:py-[12px] sm:px-[27px] mt-[45px] sm:mt-10"
+              }
+            />
+          </Link>
         </div>
       </div>
     </div>

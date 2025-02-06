@@ -15,12 +15,14 @@ function Last() {
               Our Mission is to establish a new standard of excellence in
               veterinary care, driven by an unwavering ethical conscience.
             </p>
-            <Button
-              btn={"LEARN MORE"}
-              btnclass={
-                "py-[6px] px-[10px] sm:py-[12px] sm:px-[27px] mt-[38px] sm:mt-9"
-              }
-            />
+            <Link herf="/micro">
+              <Button
+                btn={"LEARN MORE"}
+                btnclass={
+                  "py-[6px] px-[10px] sm:py-[12px] sm:px-[27px] mt-[38px] sm:mt-9"
+                }
+              />
+            </Link>
           </div>
           <div className="w-full max-w-[584px] mt-7 lg:mt-0">
             <Image
