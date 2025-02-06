@@ -1,6 +1,7 @@
 import React from "react";
 import { urData } from "../Helper/Helper";
 import Button from "./Button";
+import Link from "next/link";
 
 function Urgent() {
   return (
@@ -16,12 +17,14 @@ function Urgent() {
           <p className="text-sm sm:text-base md:text-lg lg:text-xl font-normal text-[var(--Brown,#494336)] ff-av pt-4 md:pt-6">
             {item.text}
           </p>
-          <Button
-            btn={"LEARN MORE"}
-            btnclass={
-              "mt-[45px] sm:mt-[40px] max-sm:py-[6px] max-sm:px-[19px] mb-[54px] md:mb-[59px]"
-            }
-          />
+          <Link href={item.link}>
+            <Button
+              btn={"LEARN MORE"}
+              btnclass={
+                "mt-[45px] sm:mt-[40px] max-sm:py-[6px] max-sm:px-[19px] mb-[54px] md:mb-[59px]"
+              }
+            />
+          </Link>
         </div>
       ))}
     </>

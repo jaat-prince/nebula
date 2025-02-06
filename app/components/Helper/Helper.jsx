@@ -107,42 +107,51 @@ export const dcData = [
 export const checkData = [
   {
     title: "Animal Health Check",
+    link: "/check",
     text: "Our practice offers the convenience of same or next-day appointments to ensure your furry companion receives prompt diagnostic evaluation and treatment. Our dedicated team prioritizes swift action, allowing us to quickly identify the issue at hand and provide the necessary care your pet requires.",
   },
   {
     title: "Vaccinations",
+    link: "/vaccinat",
     text: "Vaccinations are a key component of your pet’s health and essential to prevent life-threatening diseases. Nebula vets offer's all the core and non-core vaccines your pet might need.",
   },
   {
     title: "Dentals",
+    link: "/dental",
     text: "Dental disease and smelly breath is common, and regular cleanings and exams can save your pet a lot of pain and disease later in life. Our advanced state-of-the-art dental suite is equipped for dental cleanings (scale and polish), extractions and any other care your pet may need.",
   },
 ];
 export const urData = [
   {
     title: "Urgent & Emergency Care",
+    link: "/urgent",
     text: "Whether your pet is sick or injured, we’re here to help get them the help they need. This includes telemedicine veterinary consults if you are unsure, and overnight care for 24-hour treatment.",
   },
   {
     title: "Telemedicine consults",
+    link: "/telemedicine",
     text: "Nebula vets offers a fast telemedicine service, to help your pet without leaving the home",
   },
   {
     title: "Diagnostics",
+    link: "/diagno",
     text: "Nebula vets has invested in the latest technology, equipped for all the diagnostic tests your pet needs to stay healthy, and to treat those that get sick. We’re able to run tests quickly in-house in situations where a rapid diagnosis is required and offer artificialintelligence alongside veterinary experts.",
   },
   {
     title: "Pharmacy",
+    link: "/pharmacy",
     text: "Our highly stocked on-site pharmacy inlcudes a variety of prescription medications and pet health products for your pet. If a particular medication is unavailable, our compounding pharmacy can have it delivered to you within 24 hours.",
   },
 ];
 export const spayData = [
   {
     title: "Surgery",
+    link: "/surgery",
     text: "In our advanced state-of-the-art surgery suite, our experienced doctors can perform all routine surgeries, including spays, neuters, basic soft tissue surgery, such as mass removals, laceration repair, abscesses, and dental procedures. All estimates are provided within 24 hours of receiving a request!",
   },
   {
     title: "Spays & Neuters",
+    link: "/spay",
     text: "Our team comprises highly trained doctors who excel in routine surgery and harness the full potential of our state-of-the-art technology and advanced equipment. With their expertise and proficiency, they ensure optimal surgical outcomes for your beloved pets",
   },
 ];
