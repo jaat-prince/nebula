@@ -13,9 +13,11 @@ export const listData = [
   },
   {
     title: "CAREER",
+    link: "/jion",
   },
   {
     title: "PATIENT PORTAL",
+    link: "/laser",
   },
 ];
 export const whyData = [
@@ -47,31 +49,39 @@ export const whyData = [
 export const sevData = [
   {
     title: "Preventive Care",
+    link: "/dental",
   },
   {
     title: "Sick Patient Care",
+    link: "/urgent",
   },
   {
     title: "Surgery",
+    link: "/surgery",
   },
   {
     title: "Additional Services",
+    link: "/Service",
   },
 ];
 export const comData = [
   {
     title: "About us",
+    link: "/about",
   },
   {
     title: "Carreers",
+    link: "/jion",
   },
 ];
 export const contData = [
   {
     title: "Phone: (212) 123-4567",
+    link: "/https://www.agmc.co.jp/en/contact/",
   },
   {
     title: "hello@nebulavets.com",
+    link: "https://support.google.com/mail/answer/56256?hl=en",
   },
 ];
 export const careData = [

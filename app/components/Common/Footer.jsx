@@ -54,7 +54,7 @@ function Footer() {
                 {sevData.map((item, index) => (
                   <li key={index} className="mt-[6px]">
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline ff-av hover:text-[#fff] transition-all duration-500 ease-in-out"
                     >
                       {item.title}
@@ -71,7 +71,7 @@ function Footer() {
                 {comData.map((item, index) => (
                   <li key={index} className="mt-[6px]">
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline ff-av hover:text-[#fff] transition-all duration-500 ease-in-out"
                     >
                       {item.title}
@@ -88,7 +88,8 @@ function Footer() {
                 {contData.map((item, index) => (
                   <li key={index} className="mt-[6px]">
                     <a
-                      href="#"
+                      href={item.link}
+                      target="blank"
                       className="text-sm md:text-base lg:text-lg text-normal text-[var(--Grey,#D7D9DD)] leading-[144%] underline ff-av hover:text-[#fff] transition-all duration-500 ease-in-out"
                     >
                       {item.title}

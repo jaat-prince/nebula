@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Common/Button";
 import Care from "./Care";
+import Link from "next/link";
 
 function Services() {
   return (
@@ -16,12 +17,14 @@ function Services() {
           provide the highest level of support and assistance. Count on us to be
           there for you and your beloved companion every step of the way.
         </p>
-        <Button
-          btn={"LEARN MORE"}
-          btnclass={
-            "py-[6px] px-[10px] sm:py-[12px] sm:px-[27px] mt-[45px] sm:mt-10"
-          }
-        />
+        <Link href="/Service">
+          <Button
+            btn={"LEARN MORE"}
+            btnclass={
+              "py-[6px] px-[10px] sm:py-[12px] sm:px-[27px] mt-[45px] sm:mt-10"
+            }
+          />
+        </Link>
       </div>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12">
         <div className="mt-[65px] md:mt-[79px] mb-[90px] md:mb-[110px] lg:mb-[140px] ">
