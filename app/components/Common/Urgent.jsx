@@ -9,7 +9,7 @@ function Urgent() {
       {urData.map((item, index) => (
         <div
           key={index}
-          className="w-full lg:max-w-[672px] border-b-[#000] border-b mt-[29px] md:mt-[31px]"
+          className="w-full lg:max-w-[672px] min-[1620px]:max-w-[100%] border-b-[#000] border-b mt-[29px] md:mt-[31px]"
         >
           <h1 className="text-base sm:text-xl md:text-2xl lg:-[28px] font-normal text-[var(--Brown,#494336)]">
             {item.title}
