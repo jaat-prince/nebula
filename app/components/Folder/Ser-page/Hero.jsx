@@ -29,13 +29,13 @@ function Hero() {
             btn={"BOOK NOW"}
             btnclass={"mt-[45px] sm:mt-[40px] max-sm:py-[6px] max-sm:px-[19px]"}
           />
-          <div className="!rotate-y-[190deg]">
+          <div className="">
             <Image
               src={"/assets/png/catdog.png"}
               width={584}
               height={372}
               alt="logo"
-              className="w-full lg:max-w-[584px] mt-6 lg:mt-0 lg:hidden !rotate-y-[190deg]"
+              className="w-full lg:max-w-[584px] mt-6 lg:mt-0 lg:hidden"
             />
           </div>
         </div>
