@@ -5,13 +5,13 @@ import Image from "next/image";
 function Hero() {
   return (
     <div className="bg-[#494336] relative overflow-hidden">
-      <div className="lg:absolute -right-2 bottom-0 max-lg:hidden w-full lg:max-w-[653px]">
+      <div className="lg:absolute -right-2 bottom-0 max-lg:hidden w-full lg:max-w-[653px] hover:!rotate-y-[190deg]">
         <Image
           src={"/assets/png/trans.png"}
           width={584}
           height={372}
           alt="logo"
-          className="w-full mt-6 lg:mt-0"
+          className="w-full mt-6 lg:mt-0 !rotate-y-[190deg]"
         />
       </div>
       <div className="max-w-[1180px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 relative flex flex-wrap lg:flex-nowrap pt-[33px] sm:pt-[60px] md:pt-[110px] lg:pt-[140px] pb-0 lg:pb-[85px]">
@@ -29,14 +29,15 @@ function Hero() {
             btn={"BOOK NOW"}
             btnclass={"mt-[45px] sm:mt-[40px] max-sm:py-[6px] max-sm:px-[19px]"}
           />
-
-          <Image
-            src={"/assets/png/trans.png"}
-            width={584}
-            height={372}
-            alt="logo"
-            className="w-full lg:max-w-[584px] mt-6 lg:mt-0 lg:hidden"
-          />
+          <div className="!rotate-y-[190deg]">
+            <Image
+              src={"/assets/png/catdog.png"}
+              width={584}
+              height={372}
+              alt="logo"
+              className="w-full lg:max-w-[584px] mt-6 lg:mt-0 lg:hidden !rotate-y-[190deg]"
+            />
+          </div>
         </div>
       </div>
     </div>
